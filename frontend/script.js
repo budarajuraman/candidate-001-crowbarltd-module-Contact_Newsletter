@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
       };
       handleFormSubmission(
         'contact',
-        'http://localhost:3001/api/contact',
+        'https://candidate-001-crowbarltd-module-contact-newsletter.vercel.app/api/contact',
         payload,
         ['contact-name', 'contact-email', 'contact-message']
       );
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
       };
       handleFormSubmission(
         'newsletter',
-        'http://localhost:3001/api/newsletter',
+        'https://candidate-001-crowbarltd-module-contact-newsletter.vercel.app/api/newsletter',
         payload,
         ['newsletter-email']
       );
